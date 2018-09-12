@@ -12,4 +12,6 @@
 <li b>ed-tarea9: </b> <i> Recursividad (fibonacci, ambos metodos)</i>
 <li b>ed-tarea9: </b> <i> Recursividad (menu, tres tareas anteriores)</i>
 <li b>ed-tarea10: </b> <i> Pilas</i>
+<li b>ed-tarea11: </b> <i> Representacion en memoria de las Pilas</i>
+<li b>ed-tarea12: </b> <i> Operaciones básicas de las Pilas</i>
 </ul>
