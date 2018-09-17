@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+<head>  
+	<title>ed-tarea8</title>
+	<meta charset="UTF-8"> 
+</head>
+<body> 
+
+<script> 
+function mostrar(){
+	var num = document.getElementById('numero').value;   
+	alert(fibonacci(num));
+	alert(iteraciones(num));  
+}
+ 
+function fibonacci(num) {
+  if (num <= 1) return 1;
+  return fibonacci(num - 1) + fibonacci(num - 2);
+}
+ 
+function iteraciones(number) {
+    var previous_first = 0, previous_second = 1, next = 1;
+    for(var i = 1; i <= number; i++) {
+        next = previous_first + previous_second;
+        previous_first = previous_second;
+        previous_second = next;
+        console.log("i = " + i + " : " + next);
+    }
+    return next;
+}
+
+</script>  
+<form>   Ingrese un numero   <input type="text" id="numero"><br>   
+<input type="button" value="Calcular" onClick="mostrar()"> 
+</form> 
+</body> 
+</html>
