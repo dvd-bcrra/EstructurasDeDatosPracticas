@@ -13,8 +13,8 @@ function Stack()
 
   this.add = add;
   this.pop = pop;
-  this.getTopElement = getTopElement;
-  this.hasElements = hasElements;
+  this.peek = peek;
+  this.isNotNull = isNotNull;
   this.removeAll = removeAll;
   this.size = size;
 
