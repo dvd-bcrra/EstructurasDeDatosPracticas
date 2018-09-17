@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POP</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+function Stack()
+{
+  var elements = [];
+
+  this.add = add;
+  this.pop = pop;
+  this.peek = peek;
+  this.isNotNull = isNotNull;
+  this.removeAll = removeAll;
+  this.size = size;
+
+  function add() {
+    var element = document.getElementById("item").value;
+    elements.push(element);
+    alert(element + " ingresado en la pila");
+    document.getElementById("item").innerHTML = "";
+  }
+
+  //funcion pop
+  function pop() {
+  	console.log(elements[elements.length - 1] + "eliminado");
+    return elements.pop();
+  }
+  function peek() {
+    alert(elements[elements.length - 1]);
+  }
+  function isNotNull() {
+    alert(elements.length > 0);
+  }
+  function removeAll() {
+    elements = [];
+    alert("pila vacia");
+  }
+  function size() {
+    alert(elements.length);
+  }
+}
+
+var pila = new Stack();
+
+</script>
+<form>
+  Bienvenido a PILAS.com <br>
+  <input type="text" id="item" autofocus>
+  <input type="button" value ="push" onClick = "pila.add()"> <br>
+  <input type="button" value ="pop" onClick = "pila.pop()"> <br>
+  <input type="button" value ="peek" onClick = "pila.peek()"> <br>
+  <input type="button" value ="hasElements" onClick = "pila.isNotNull()"> <br>
+  <input type="button" value ="removeAll" onClick = "pila.removeAll()"> <br>
+  <input type="button" value ="size" onClick = "pila.size()"> <br>
+</form>
+</body>
+</html>
