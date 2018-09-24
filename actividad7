@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+function Stack()
+{
+  var elements = [];
+
+  this.push = push;
+  this.pop = pop;
+  this.peek = peek;
+  this.peekUser = peekUser;
+  this.peekAll = peekAll;
+  this.isNotNull = isNotNull;
+  this.removeAll = removeAll;
+  this.size = size;
+
+  function push() {
+    var element = document.getElementById("item").value;
+    if (elements.length >= 5){
+      document.getElementById("salida").innerHTML = "no se puede";
+    }else{
+      elements.push(element);
+      document.getElementById("salida").innerHTML = element + " ingrasado en la fila";
+      document.getElementById("item").innerHTML = "";
+    }
+  }
+  function pop() {
+    if(elements.lenght==0){
+      document.getElementById("salida").innerHTML = element + " no se puede";
+    }else{
+      document.getElementById("salida").innerHTML = elements[elements.lenght-1] + " eliminado";
+      return elements.pop();
+    }
+  }
+  function peek() {
+    document.getElementById("salida").innerHTML = elements[elements.length - 1];
+  }
+
+  function peekUser() {
+    var index = parseInt(document.getElementById("index").value) - 1;
+    if (index < 0 && index >= elements.length){
+      document.getElementById("salida").innerHTML = "no existe";
+    }else {
+      document.getElementById("salida").innerHTML = elements[index];
+    }
+  }
+
+  function peekAll() {
+    var salida = "";
+    for (var i = 0; i < elements.length; i++) {
+      var suma = i+1;
+      salida = salida + "Index: " + suma + " - Item: " + elements[i] + "<br>";
+    }
+    document.getElementById("salida").innerHTML = salida;
+  }
+
+  function isNotNull() {
+    document.getElementById("salida").innerHTML = elements.length > 0;
+  }
+
+  function removeAll() {
+    elements = [];
+    document.getElementById("salida").innerHTML ="pila vacia";
+  }
+
+  function size() {
+    document.getElementById("salida").innerHTML = elements.length;
+  }
+
+}
+
+var pila = new Stack();
+
+</script>
+<form>
+  Bienvenido a PILAS.com <br>
+  <input type="text" id="item" autofocus>
+  <input type="button" value ="push" onClick = "pila.push()"> <br>
+  <input type="button" value ="pop" onClick = "pila.pop()"> <br>
+  <input type="button" value ="peek" onClick = "pila.peek()"> <br>
+  <input type="text" id="index">
+  <input type="button" value ="peekUser" onClick = "pila.peekUser()"> <br>
+  <input type="button" value ="peekAll" onClick = "pila.peekAll()"> <br>
+  <input type="button" value ="hasElements" onClick = "pila.isNotNull()"> <br>
+  <input type="button" value ="removeAll" onClick = "pila.removeAll()"> <br>
+  <input type="button" value ="size" onClick = "pila.size()"> <br>
+</form>
+<div id = salida></div>
+</body>
+</html>
