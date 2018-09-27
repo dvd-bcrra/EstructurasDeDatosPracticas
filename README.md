@@ -21,4 +21,5 @@
   <li b>actividad5: </b> <i> Pilas: Operacion push</i>
   <li b>actividad6: </b> <i> Pilas: Operacion pop</i>
   <li b>actividad7: </b> <i> Pilas: Operacion peek</i>
+  <li b>actividad8: </b> <i> Colas: Operacion add</i>
 </ul>
