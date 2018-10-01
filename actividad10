@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+function Queue()
+{
+  var elements = [];
+
+  this.add = add;
+  this.remove = remove;
+  this.element = element;
+  this.elementAll = elementAll;
+  this.elementSearch = elementSearch;
+  this.elementNext = elementNext;
+  this.isNotNull = isNotNull;
+  this.create = create;
+  this.size = size;
+
+  function add() {
+    var item = document.getElementById("item").value;
+    if (elements.length >= 5){
+      document.getElementById("salida").innerHTML = "no se puede";
+    }else{
+      elements.push(item);
+      document.getElementById("salida").innerHTML = item + " ingrasado en la cola";
+      document.getElementById("item").innerHTML = "";
+    }
+  }
+
+  function remove() {
+    if(elements.lenght==0){
+      document.getElementById("salida").innerHTML = " no se puede";
+    }else{
+      var desencolado = elements.shift();
+      document.getElementById("salida").innerHTML = desencolado + " ha sido eliminado";
+    }
+  }
+
+  // metodo element de una cola
+  function element() {
+    document.getElementById("salida").innerHTML = elements[elements.length-1];
+  }
+
+  function elementAll() {
+    document.getElementById("salida").innerHTML = elements[0];
+    var salida = "";
+    for (var i = 0; i < elements.length; i++) {
+      var suma = i+1;
+      salida = salida + "Index: " + suma + " - Item: " + elements[i] + "<br>";
+    }
+    document.getElementById("salida").innerHTML = salida;
+  }
+
+  function elementSearch() {
+    var log = "";
+    var search = document.getElementById("search").value;
+    var times = 0;
+    for (var i = 0; i < elements.length; i++) {
+      if (search == elements[i]){
+        times++;
+        log = log + search + " encontrado en la posicion " + i+1 + "</br>";
+      }
+    }
+    if (times>0){
+      log = "Elemento encontrado " + times + " veces </br>" + log;
+      document.getElementById("salida").innerHTML = log;
+    }else{
+      document.getElementById("salida").innerHTML = "404 not found";
+    }
+  }
+
+  function elementNext() {
+    document.getElementById("salida").innerHTML = elements[0] + " proximo en ser desencolado";
+  }
+  // metodo element de una cola
+
+  function isNotNull() {
+    document.getElementById("salida").innerHTML = elements.length > 0;
+  }
+
+  function create() {
+    elements = [];
+    document.getElementById("salida").innerHTML ="Nueva cola creada";
+  }
+
+  function size() {
+    document.getElementById("salida").innerHTML = elements.length;
+  }
+}
+
+var cola = new Queue();
+
+</script>
+<form>
+  Bienvenido a COLAS.com <br>
+  <input type="button" value ="create" onClick = "cola.create()"> <br>
+  <input type="text" id="item" autofocus>
+  <input type="button" value ="push" onClick = "cola.add()"> <br>
+  <input type="button" value ="remove" onClick = "cola.remove()"> <br>
+  <input type="button" value ="element" onClick = "cola.element()"> <br>
+  <input type="button" value ="elementAll" onClick = "cola.elementAll()"> <br>
+  <input type="text" id="search" autofocus>
+  <input type="button" value ="elementSearch" onClick = "cola.elementSearch()"> <br>
+  <input type="button" value ="elementNext" onClick = "cola.elementNext()"> <br>
+  <input type="button" value ="isNotNull" onClick = "cola.isNotNull()"> <br>
+  <input type="button" value ="size" onClick = "cola.size()"> <br>
+</form>
+<div id = salida></div>
+</body>
+</html>
