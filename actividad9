@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<script>
+function Queue()
+{
+  var elements = [];
+
+  this.add = add;
+  this.remove = remove;
+  this.element = element;
+  this.isNotNull = isNotNull;
+  this.create = create;
+  this.showall = showall;
+  this.size = size;
+
+  function add() {
+    var item = document.getElementById("item").value;
+    if (elements.length >= 5){
+      document.getElementById("salida").innerHTML = "no se puede";
+    }else{
+      elements.push(item);
+      document.getElementById("salida").innerHTML = item + " ingrasado en la cola";
+      document.getElementById("item").innerHTML = "";
+    }
+  }
+
+  // funcion remove
+  function remove() {
+    if(elements.lenght==0){
+      document.getElementById("salida").innerHTML = " no se puede";
+    }else{
+      var desencolado = elements.shift(); // desencola el elemento de indice 0, recorre el resto de los elementos de la cola
+      document.getElementById("salida").innerHTML = desencolado + " ha sido eliminado";
+    }
+  }
+
+  function element() {
+    document.getElementById("salida").innerHTML = elements[0];
+  }
+
+  function isNotNull() {
+    document.getElementById("salida").innerHTML = elements.length > 0;
+  }
+
+  function create() {
+    elements = [];
+    document.getElementById("salida").innerHTML ="Nueva cola creada";
+  }
+
+  function showall() {
+    var salida = "";
+    for (var i = 0; i < elements.length; i++) {
+      var suma = i+1;
+      salida = salida + "Index: " + suma + " - Item: " + elements[i] + "<br>";
+    }
+    document.getElementById("salida").innerHTML = salida;
+  }
+
+  function size() {
+    document.getElementById("salida").innerHTML = elements.length;
+  }
+}
+
+var cola = new Queue();
+
+</script>
+<form>
+  Bienvenido a COLAS.com <br>
+  <input type="text" id="item" autofocus>
+  <input type="button" value ="push" onClick = "cola.add()"> <br>
+  <input type="button" value ="remove" onClick = "cola.remove()"> <br>
+  <input type="button" value ="element" onClick = "cola.element()"> <br>
+  <input type="button" value ="create" onClick = "cola.create()"> <br>
+  <input type="button" value ="isNotNull" onClick = "cola.isNotNull()"> <br>
+  <input type="button" value ="showall" onClick = "cola.showall()"> <br>
+  <input type="button" value ="size" onClick = "cola.size()"> <br>
+</form>
+<div id = salida></div>
+</body>
+</html>
