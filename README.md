@@ -11,6 +11,7 @@
   <li b>ed-tarea8: </b> <i> Representacion en memoria de las Pilas</i>
   <li b>ed-tarea9: </b> <i> Operaciones básicas de las Pilas</i>
   <li b>ed-tarea10: </b> <i> Colas</i>
+  <li b>ed-tarea11: </b> <i> Colas circulares</i>
 </ul>
 
 <ul>
