@@ -26,7 +26,7 @@
   <li b>actividad8: </b> <i> Colas: Operacion add</i>
   <li b>actividad9: </b> <i> Colas: Operacion remove</i>
   <li b>actividad10: </b> <i> Colas: Operacion element</i>
-  <li b>actividad11: </b> <i> Colas dobles: push</i>
+  <li b>actividad11: </b> <i> Colas circulares: push</i>
 </ul>
 
 <ul>
