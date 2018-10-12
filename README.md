@@ -27,6 +27,8 @@
   <li b>actividad9: </b> <i> Colas: Operacion remove</i>
   <li b>actividad10: </b> <i> Colas: Operacion element</i>
   <li b>actividad11: </b> <i> Colas circulares: push</i>
+  <li b>actividad12: </b> <i> Colas circulares: pop</i>
+  <li b>actividad13: </b> <i> Colas circulares: peek</i>
 </ul>
 
 <ul>
