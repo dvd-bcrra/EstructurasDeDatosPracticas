@@ -13,6 +13,7 @@
   <li b>ed-tarea10: </b> <i> Colas</i>
   <li b>ed-tarea11: </b> <i> Colas circulares</i>
   <li b>ed-tarea12: </b> <i> Colas dobles</i>
+  <li b>ed-tarea13: </b> <i> Listas enlazadas</i>
 </ul>
 
 <ul>
@@ -29,6 +30,7 @@
   <li b>actividad11: </b> <i> Colas circulares: push</i>
   <li b>actividad12: </b> <i> Colas circulares: pop</i>
   <li b>actividad13: </b> <i> Colas circulares: peek</i>
+  <li b>actividad14: </b> <i> Colas dobles: push</i>
 </ul>
 
 <ul>
