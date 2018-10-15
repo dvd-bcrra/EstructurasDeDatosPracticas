@@ -1,3 +1,19 @@
+/*
+	OUTPUT
+	Ingrese la posicion de inicio (1-5): 3
+	push manzana
+	 - - manzana - -
+	push pera
+	 - - manzana pera -
+	push fresa
+	 - - manzana pera fresa
+	push durazno
+	 durazno - manzana pera fresa
+	pop
+	 durazno - - pera fresa
+	exit
+*/
+
 import java.util.Scanner;
 
 public class ColaCircular {
@@ -53,9 +69,10 @@ public class ColaCircular {
             pop();
             menu();
         }
-
-        switch (cmd){
+        else{
+        	switch (cmd){
             case "exit":
+            	imprimir("ya me boi");
                 break;
             case "peek last":
                 peek_last();
@@ -65,7 +82,7 @@ public class ColaCircular {
                 peek();
                 menu();
             case "peek all":
-                peek();
+                peek_all();
                 menu();
             case "vaciar":
                 vaciar();
@@ -74,16 +91,18 @@ public class ColaCircular {
                 imprimir("Comando no identificado");
                 menu();
                 break;
+        	}
         }
+        
     }
 
     //metodo peek
     public void peek(){
-        imprimir(Integer.toString(root));
+        imprimir(cc[root]);
     }
 
     public void peek_last(){
-        imprimir(Integer.toString(front));
+        imprimir(cc[front]);
     }
 
     public void peek_all(){
