@@ -31,6 +31,8 @@
   <li b>actividad12: </b> <i> Colas circulares: pop</i>
   <li b>actividad13: </b> <i> Colas circulares: peek</i>
   <li b>actividad14: </b> <i> Colas dobles: push</i>
+  <li b>actividad15: </b> <i> Listas Enlazadas: Ingresar</i>
+  <li b>actividad16: </b> <i> Listas Enlazadas: Imprimir</i>
 </ul>
 
 <ul>
