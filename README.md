@@ -14,6 +14,10 @@
   <li b>ed-tarea11: </b> <i> Colas circulares</i>
   <li b>ed-tarea12: </b> <i> Colas dobles</i>
   <li b>ed-tarea13: </b> <i> Listas enlazadas</i>
+  <li b>ed-tarea14: </b> <i> Listas enlazadas circulares</i>
+  <li b>ed-tarea15: </b> <i> Listas dobles enlazadas</i>
+  <li b>ed-tarea16: </b> <i> Listas doblemente enlazadas circulares</i>
+  <li b>ed-tarea17: </b> <i> Arboles binarios</i>
 </ul>
 
 <ul>
@@ -33,8 +37,18 @@
   <li b>actividad14: </b> <i> Colas dobles: push</i>
   <li b>actividad15: </b> <i> Colas dobles: pop</i>
   <li b>actividad16: </b> <i> Colas dobles: peek</i>
-  <li b>actividad17: </b> <i> Listas Enlazadas: Ingresar</i>
-  <li b>actividad18: </b> <i> Listas Enlazadas: Imprimir</i>
+  <li b>actividad17: </b> <i> Listas Enlazadas: push</i>
+  <li b>actividad18: </b> <i> Listas Enlazadas: peek</i>
+  <li b>actividad19: </b> <i> Listas Enlazadas: pop</i>
+  <li b>actividad17: </b> <i> Listas Enlazadas circulares: push</i>
+  <li b>actividad19: </b> <i> Listas Enlazadas circulares: peek</i>
+  <li b>actividad20: </b> <i> Listas Enlazadas circulares: pop</i>
+  <li b>actividad21: </b> <i> Listas doblemente Enlazadas: push</i>
+  <li b>actividad22: </b> <i> Listas doblemente Enlazadas: peek</i>
+  <li b>actividad23: </b> <i> Listas doblemente Enlazadas: pop</i>
+  <li b>actividad24: </b> <i> Listas doblemente Enlazadas circulares: push</i>
+  <li b>actividad25: </b> <i> Listas doblemente Enlazadas circulares: peek</i>
+  <li b>actividad26: </b> <i> Listas doblemente Enlazadas circulares: pop</i>
 </ul>
 
 <ul>
