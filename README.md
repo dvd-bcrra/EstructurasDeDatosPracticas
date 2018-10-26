@@ -46,9 +46,6 @@
   <li b>actividad21: </b> <i> Listas doblemente Enlazadas: push</i>
   <li b>actividad22: </b> <i> Listas doblemente Enlazadas: peek</i>
   <li b>actividad23: </b> <i> Listas doblemente Enlazadas: pop</i>
-  <li b>actividad24: </b> <i> Listas doblemente Enlazadas circulares: push</i>
-  <li b>actividad25: </b> <i> Listas doblemente Enlazadas circulares: peek</i>
-  <li b>actividad26: </b> <i> Listas doblemente Enlazadas circulares: pop</i>
 </ul>
 
 <ul>
