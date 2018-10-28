@@ -46,6 +46,7 @@
   <li b>actividad21: </b> <i> Listas doblemente Enlazadas: push</i>
   <li b>actividad22: </b> <i> Listas doblemente Enlazadas: peek</i>
   <li b>actividad23: </b> <i> Listas doblemente Enlazadas: pop</i>
+  <li b>actividad24: </b> <i> Arboles Binarios: push</i>
 </ul>
 
 <ul>
