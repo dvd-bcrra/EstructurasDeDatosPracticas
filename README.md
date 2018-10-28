@@ -34,19 +34,19 @@
   <li b>actividad11: </b> <i> Colas circulares: push</i>
   <li b>actividad12: </b> <i> Colas circulares: pop</i>
   <li b>actividad13: </b> <i> Colas circulares: peek</i>
-  <li b>actividad14: </b> <i> Colas dobles: push</i>
-  <li b>actividad15: </b> <i> Colas dobles: pop</i>
-  <li b>actividad16: </b> <i> Colas dobles: peek</i>
-  <li b>actividad17: </b> <i> Listas Enlazadas: push</i>
-  <li b>actividad18: </b> <i> Listas Enlazadas: peek</i>
-  <li b>actividad19: </b> <i> Listas Enlazadas: pop</i>
-  <li b>actividad17: </b> <i> Listas Enlazadas circulares: push</i>
-  <li b>actividad19: </b> <i> Listas Enlazadas circulares: peek</i>
-  <li b>actividad20: </b> <i> Listas Enlazadas circulares: pop</i>
-  <li b>actividad21: </b> <i> Listas doblemente Enlazadas: push</i>
-  <li b>actividad22: </b> <i> Listas doblemente Enlazadas: peek</i>
-  <li b>actividad23: </b> <i> Listas doblemente Enlazadas: pop</i>
-  <li b>actividad24: </b> <i> Arboles Binarios: push</i>
+  <li b>actividad14: </b> <i> * Colas dobles: push</i>
+  <li b>actividad15: </b> <i> * Colas dobles: pop</i>
+  <li b>actividad16: </b> <i> * Colas dobles: peek</i>
+  <li b>actividad17: </b> <i> * Listas Enlazadas: push</i>
+  <li b>actividad18: </b> <i> * Listas Enlazadas: peek</i>
+  <li b>actividad19: </b> <i> * Listas Enlazadas: pop</i>
+  <li b>actividad20: </b> <i> * Listas Enlazadas circulares: push</i>
+  <li b>actividad21: </b> <i> * Listas Enlazadas circulares: peek</i>
+  <li b>actividad22: </b> <i> * Listas Enlazadas circulares: pop</i>
+  <li b>actividad23: </b> <i> * Listas doblemente Enlazadas: push</i>
+  <li b>actividad24: </b> <i> * Listas doblemente Enlazadas: peek</i>
+  <li b>actividad25: </b> <i> * Listas doblemente Enlazadas: pop</i>
+  <li b>actividad26: </b> <i> Arboles Binarios: push</i>
 </ul>
 
 <ul>
