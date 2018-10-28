@@ -11,13 +11,12 @@
   <li b>ed-tarea8: </b> <i> Representacion en memoria de las Pilas</i>
   <li b>ed-tarea9: </b> <i> Operaciones básicas de las Pilas</i>
   <li b>ed-tarea10: </b> <i> Colas</i>
-  <li b>ed-tarea11: </b> <i> Colas circulares</i>
+  <li b>ed-tarea11: </b> <i> * Colas circulares</i>
   <li b>ed-tarea12: </b> <i> Colas dobles</i>
-  <li b>ed-tarea13: </b> <i> Listas enlazadas</i>
-  <li b>ed-tarea14: </b> <i> Listas enlazadas circulares</i>
-  <li b>ed-tarea15: </b> <i> Listas dobles enlazadas</i>
-  <li b>ed-tarea16: </b> <i> Listas doblemente enlazadas circulares</i>
-  <li b>ed-tarea17: </b> <i> Arboles binarios</i>
+  <li b>ed-tarea13: </b> <i> * Listas enlazadas</i>
+  <li b>ed-tarea14: </b> <i> * Listas enlazadas circulares</i>
+  <li b>ed-tarea15: </b> <i> * Listas dobles enlazadas</i>
+  <li b>ed-tarea17: </b> <i> * Arboles binarios</i>
 </ul>
 
 <ul>
