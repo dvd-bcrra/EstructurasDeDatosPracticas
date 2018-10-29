@@ -36,9 +36,9 @@
   <li b>actividad14: </b> <i> Colas dobles: push</i>
   <li b>actividad15: </b> <i> Colas dobles: pop</i>
   <li b>actividad16: </b> <i> Colas dobles: peek</i>
-  <li b>actividad17: </b> <i> * Listas Enlazadas: push</i>
-  <li b>actividad18: </b> <i> * Listas Enlazadas: peek</i>
-  <li b>actividad19: </b> <i> * Listas Enlazadas: pop</i>
+  <li b>actividad17: </b> <i> Listas Enlazadas: push</i>
+  <li b>actividad18: </b> <i> Listas Enlazadas: peek</i>
+  <li b>actividad19: </b> <i> Listas Enlazadas: pop</i>
   <li b>actividad20: </b> <i> * Listas Enlazadas circulares: push</i>
   <li b>actividad21: </b> <i> * Listas Enlazadas circulares: peek</i>
   <li b>actividad22: </b> <i> * Listas Enlazadas circulares: pop</i>
