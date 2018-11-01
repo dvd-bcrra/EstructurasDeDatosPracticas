@@ -68,11 +68,11 @@ class BinaryTree():
                     #recorrer en derecha
                     subarbol = subarbol.right
 
-    def inorden(self,p):
-        if p is not None:
-            self.inorden(p.left)
-            print(p.data + " ")
-            self.inorden(p.right)
+    def inorden(self,subarbol):
+        if subarbol is not None:
+            self.inorden(subarbol.left)
+            print(subarbol.data + " ")
+            self.inorden(subarbol.right)
                 
 
 #programa
