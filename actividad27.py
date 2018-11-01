@@ -17,7 +17,7 @@ class BinaryTree():
         self.root = None
     
     #metodo push
-    def push(self,item):
+    def ingresar(self,item):
         
         nodo = Node()
         nodo.data = item
@@ -82,7 +82,7 @@ def menu():
     enter = int(input("-> "))
     if enter == 1:
         item = input("Ingrese el valor: ")
-        bt.push(item)
+        bt.ingresar(item)
         menu()
     elif enter == 2:
         bt.inorden(bt.root)
