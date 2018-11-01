@@ -17,6 +17,7 @@
   <li b>ed-tarea14: </b> <i> * Listas enlazadas circulares</i>
   <li b>ed-tarea15: </b> <i> * Listas dobles enlazadas</i>
   <li b>ed-tarea17: </b> <i> * Arboles binarios</i>
+  <li b>ed-tarea18: </b> <i> * Arboles binarios balanceados</i>
 </ul>
 
 <ul>
