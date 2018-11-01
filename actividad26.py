@@ -31,7 +31,7 @@ class BinaryTree():
             
             while recorrer:
 
-                print(subarbol.data)
+                print("Subraiz: " + subarbol.data)
                 
                 if subarbol.left is None:
                     #si la rama izquierda esta vacia...
@@ -68,15 +68,42 @@ class BinaryTree():
                     #recorrer en derecha
                     subarbol = subarbol.right
 
+    def inorden(self):
+        recorrer = True
+        subarbol = self.root
+        p = subarbol
+
+        #CARGAR PUNTERO
+        while recorrer:
+            if p.left is not None:
+                p = p.left
+                
+            else:
+                if p.right is not None:
+                    p = p.right
+                else:
+                    recorrer = False
+
+        print(p.data)
+            
+        
+        
+
 #programa
 bt = BinaryTree()
 def menu():
-    print("1) Agregar nodo\n2)Irse")
+    print("1) Agregar nodo\n2) Inorden\n3) Irse")
     enter = int(input("-> "))
     if enter == 1:
         item = input("Ingrese el valor: ")
         bt.push(item)
         menu()
+    elif enter == 2:
+        bt.inorden
+        menu()
+    else:
+        #weas
+        print("bye")
 menu()
 
                 
