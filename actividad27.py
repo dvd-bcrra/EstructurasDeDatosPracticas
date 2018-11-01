@@ -78,7 +78,7 @@ class BinaryTree():
 #programa
 bt = BinaryTree()
 def menu():
-    print("1) Agregar nodo\n2) Inorden")
+    print("1) Agregar nodo\n2) Inorden\n3) Salir")
     enter = int(input("-> "))
     if enter == 1:
         item = input("Ingrese el valor: ")
@@ -86,5 +86,10 @@ def menu():
         menu()
     elif enter == 2:
         bt.inorden(bt.root)
+        menu()
+    elif enter == 3:
+        print("Fin")
+    else:
+        print("error")
         menu()
 menu()
