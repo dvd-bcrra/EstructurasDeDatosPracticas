@@ -68,17 +68,20 @@ class BinaryTree():
                     #recorrer en derecha
                     subarbol = subarbol.right
 
+    #MÉTODO INORDEN
     def inorden(self,subarbol):
+
+        #SI EL NODO NO ES HOJA...
         if subarbol is not None:
             self.inorden(subarbol.left)
-            print(subarbol.data + " ")
+            print(subarbol.data, end = " ")
             self.inorden(subarbol.right)
                 
 
 #programa
 bt = BinaryTree()
 def menu():
-    print("1) Agregar nodo\n2) Inorden\n3) Salir")
+    print("\n1) Agregar nodo\n2) Inorden\n3) Salir")
     enter = int(input("-> "))
     if enter == 1:
         item = input("Ingrese el valor: ")
