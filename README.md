@@ -16,9 +16,9 @@
   <li b>ed-tarea13: </b> <i> Listas enlazadas</i>
   <li b>ed-tarea14: </b> <i> * Listas enlazadas circulares</i>
   <li b>ed-tarea15: </b> <i> * Listas dobles enlazadas</i>
-  <li b>ed-tarea17: </b> <i> * Arboles binarios</i>
-  <li b>ed-tarea18: </b> <i> * Arboles binarios balanceados</i>
-  <li b>ed-tarea19: </b> <i> * Metodos de ordenamiento: Bubble sort, Quick sort, Shell sort, Radix sort</i>
+  <li b>ed-tarea16: </b> <i> * Arboles binarios</i>
+  <li b>ed-tarea17: </b> <i> * Arboles binarios balanceados</i>
+  <li b>ed-tarea18: </b> <i> * Metodos de ordenamiento: Bubble sort, Quick sort, Shell sort, Radix sort</i>
 </ul>
 
 <ul>
@@ -49,9 +49,10 @@
   <li b>actividad25: </b> <i> * Listas doblemente Enlazadas: pop</i>
   <li b>actividad26: </b> <i> Arboles Binarios: ingresar</i>
   <li b>actividad27: </b> <i> Arboles Binarios: recorrido inorden</i>
-  <li b>actividad28: </b> <i> * Arboles Binarios: recorrido preorden</i>
-  <li b>actividad29: </b> <i> * Arboles Binarios: recorrido postorden</i>
-  <li b>actividad30: </b> <i> * Arboles Binarios balanceados</i>
+  <li b>actividad28: </b> <i> Arboles Binarios: recorrido preorden</i>
+  <li b>actividad29: </b> <i> Arboles Binarios: recorrido postorden</i>
+  <li b>actividad30: </b> <i> * Arboles Binarios balanceados (con sus recorridos)</i>
+  <li b>actividad31: </b> <i> * Bubble sort</i>
 </ul>
 
 <ul>
