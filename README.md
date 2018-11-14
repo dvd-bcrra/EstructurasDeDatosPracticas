@@ -19,6 +19,7 @@
   <li b>ed-tarea16: </b> <i> * Arboles binarios</i>
   <li b>ed-tarea17: </b> <i> * Arboles binarios balanceados</i>
   <li b>ed-tarea18: </b> <i> * Metodos de ordenamiento: Bubble sort, Quick sort, Shell sort, Radix sort</i>
+  <li b>ed-tarea18: </b> <i> * Metodos de ordenamiento externos: Merge sort</i>
 </ul>
 
 <ul>
@@ -54,6 +55,8 @@
   <li b>actividad30: </b> <i> * Arboles Binarios balanceados (con sus recorridos)</i>
   <li b>actividad31: </b> <i> * Bubble sort</i>
   <li b>actividad32: </b> <i> * Quick sort</i>
+  <li b>actividad33: </b> <i> * Shell sort</i>
+  <li b>actividad34: </b> <i> * Merge sort</i>
 </ul>
 
 <ul>
