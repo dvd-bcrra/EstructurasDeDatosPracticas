@@ -1,10 +1,41 @@
-arreglo = [3,4,1,9,7,2,5,8,6]
-pivote = len(arreglo)//2
+import random
 
-def quickSort(arr,pvt):
+def quickSort(ari,first,last):
+    if first<last:
+        sp = splitpoint(ari,first,last)
+        quickSort(ari,first,sp - 1)
+        quickSort(ari,sp + 1,last)
 
-    left = 0
-    right = len(arr) - 1
-    
-    while 
-    
+def splitpoint(ari,first,last):
+    pvt = ari[first]
+    left = first + 1
+    right = last
+
+    detenerse = False
+    while not detenerse:
+
+        while left <= right and ari[left] <= pvt:
+            left = left + 1
+
+        while ari[right] >= pvt and right >= left:
+            right = right -1
+
+        if right < left:
+            detenerse = True
+        else:
+            #EXCHANGE
+            burbuja = ari[left]
+            ari[left] = ari[right]
+            ari[right] = burbuja
+                       
+    #EXCHANGE ENTRE PIVOTE Y SPLITPOINT
+    burbuja = ari[first]
+    ari[first] = ari[right]
+    ari[right] = burbuja
+    return right
+
+########################################################
+ari = []
+for i in range(50):
+    ari.append(random.randint(0,100))
+quickSort(ari,0,len(ari)-1)
