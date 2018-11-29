@@ -53,9 +53,9 @@
   <li b>actividad28: </b> <i> Arboles Binarios: recorrido preorden</i>
   <li b>actividad29: </b> <i> Arboles Binarios: recorrido postorden</i>
   <li b>actividad30: </b> <i> * Arboles Binarios balanceados (con sus recorridos)</i>
-  <li b>actividad31: </b> <i> * Bubble sort</i>
-  <li b>actividad32: </b> <i> * Quick sort</i>
-  <li b>actividad33: </b> <i> * Shell sort</i>
+  <li b>actividad31: </b> <i> Bubble sort</i>
+  <li b>actividad32: </b> <i> Quick sort</i>
+  <li b>actividad33: </b> <i> Shell sort</i>
   <li b>actividad34: </b> <i> * Merge sort</i>
 </ul>
 
