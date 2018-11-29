@@ -45,9 +45,9 @@
   <li b>actividad20: </b> <i> * Listas Enlazadas circulares: push</i>
   <li b>actividad21: </b> <i> * Listas Enlazadas circulares: peek</i>
   <li b>actividad22: </b> <i> * Listas Enlazadas circulares: pop</i>
-  <li b>actividad23: </b> <i> * Listas doblemente Enlazadas: push</i>
-  <li b>actividad24: </b> <i> * Listas doblemente Enlazadas: peek</i>
-  <li b>actividad25: </b> <i> * Listas doblemente Enlazadas: pop</i>
+  <li b>actividad23: </b> <i> Listas doblemente Enlazadas: push</i>
+  <li b>actividad24: </b> <i> Listas doblemente Enlazadas: peek</i>
+  <li b>actividad25: </b> <i> Listas doblemente Enlazadas: pop</i>
   <li b>actividad26: </b> <i> Arboles Binarios: ingresar</i>
   <li b>actividad27: </b> <i> Arboles Binarios: recorrido inorden</i>
   <li b>actividad28: </b> <i> Arboles Binarios: recorrido preorden</i>
