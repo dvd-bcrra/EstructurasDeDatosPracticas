@@ -1,0 +1,392 @@
+< !DOCTYPE html >
+< html >
+< head >
+< title > Examen del Patriot < /title>
+< /head>
+< body >
+< script type = "text/javascript" >
+function sumas(num) {
+if (num > 1) {
+return num + sumas(num - 1);
+} else {
+return 1;
+}
+}
+// Posible ver desde la Google Chrome >> Inspeccionar elemento >> Consola
+console.log(sumas(9));
+< /script>
+< /body>
+< /html>
+
+*******************************************************************************
+
+<!DOCTYPE html >
+<html >
+<head >
+<title > Examen del Patriot < /title>
+</head>
+<body >
+<script type = "text/javascript" >
+function dos_a_la_(ene) {
+if (ene > 0) {
+return 2 * dos_a_la_(ene - 1);
+} else {
+return 1;
+}
+}
+// Posible ver desde la Google Chrome >> Inspeccionar elemento >> Consola
+var ene = prompt("Ingrese la potencia", '');
+console.log(dos_a_la_(ene));
+< /script>
+< /body>
+< /html>
+
+************************************************************************************
+
+< !DOCTYPE html >
+< html >
+< head >
+< title > Ejemplo de JavaScript < /title>
+< meta charset = "UTF-8" >
+< /head>
+< body >
+< style type = "text/css" >
+#form {
+border - radius: 20 px;
+background - color: #ddd;
+width: 1000 px;
+padding: 100 px;
+}.anybtn {
+border - top - left - radius: 20 px;
+border - bottom - right - radius: 20 px;
+background - color: #ddd;
+width: 200 px;
+padding: 5 px;
+}
+input: hover {
+background - color: #ff00ff;
+color: #ffffff;
+}
+body {
+background: #222222;
+margin:50px;
+}
+</style>
+<script>
+function Stack()
+{
+var elements =[];
+this.push = push;
+this.pop = pop;
+this.peek = peek;
+this.peekUser = peekUser;
+this.peekAll = peekAll;
+this.isNotNull = isNotNull;
+this.removeAll = removeAll;
+this.size = size;
+function push() {
+var element = prompt("Ingrese el nombre de la nueva version", "GoPats0" + (elemen
+ts.length + 1));
+if (elements.length >= 5) {
+document.getElementById("salida").innerHTML = "no se puede";
+} else {
+elements.push(element);
+document.getElementById("salida").innerHTML = "migracion " + element + " ingr
+asada en la pila";
+}
+}
+function pop() {
+if (elements.length == 0) {
+document.getElementById("salida").innerHTML = element + "su pila ya esta vaci
+a";
+} else {
+document.getElementById("salida").innerHTML = "migracion " + elements[element
+s.length - 1] + " eliminada";
+
+return elements.pop();
+
+}
+
+}
+
+
+function peek() {
+
+document.getElementById("salida").innerHTML = elements[elements.length - 1];
+
+}
+
+
+function peekUser() {
+
+var index = prompt("Ingrese el indice de la migracion que busca", "0");
+
+if (index < 0 && index >= elements.length) {
+
+document.getElementById("salida").innerHTML = "no existe";
+
+} else {
+
+document.getElementById("salida").innerHTML = elements[index];
+
+}
+
+}
+
+function peekAll() {
+
+var salida = "";
+
+for (var i = 0; i < elements.length; i++) {
+
+var suma = i + 1;
+
+salida = salida + "Index: " + suma + " - Item: " + elements[i] + "<br>";
+
+}
+
+document.getElementById("salida").innerHTML = salida;
+
+}
+
+
+function isNotNull() {
+
+document.getElementById("salida").innerHTML = elements.length > 0;
+
+}
+
+
+function removeAll() {
+
+elements = [];
+
+document.getElementById("salida").innerHTML = "Nueva pila vacia";
+
+}
+
+function size() {
+
+document.getElementById("salida").innerHTML = elements.length;
+
+}
+}
+ var pila = new Stack();
+
+< /script>
+
+< table id = "form" >
+
+< tr >
+
+< td >
+
+< form > Bienvenido al gestor de versiones "No me repruebe.com!" < br >
+
+< input type = "button" class = "anybtn" value = "Nuevo Proyecto
+onClick = "pila.removeAll()" > < br >
+
+< input type = "button" class = "anybtn" value = "push"
+onClick = "pila.push()" > < br >
+
+< input type = "button" class = "anybtn" value = "pop"
+onClick = "pila.pop()" > < br >
+
+< input type = "button" class = "anybtn" value = "peek"
+onClick = "pila.peek()" > < br >
+
+< input type = "button" class = "anybtn" value = "peekUser"
+onClick = "pila.peekUser()" > < br >
+
+< input type = "button" class = "anybtn" value = "peekAll"
+onClick = "pila.peekAll()" > < br >
+
+< input type = "button" class = "anybtn" value = "hasElements”
+onClick = "pila.isNotNull()" > < br >
+< input type = "button" class = "anybtn" value = "removeAll"
+onClick = "pila.removeAll()" > < br >
+
+< input type = "button" class = "anybtn" value = "size"
+onClick = "pila.size()" > < br >
+
+< /form>
+
+< /td>
+
+< td >
+
+< div id = salida > < /div>
+
+< /td>
+
+< /tr>
+
+< /table>
+
+< /body>
+
+< /html>
+
+*********************************************************************
+< !DOCTYPE html > < html > < head > < title > Ejemplo de JavaScript < /title> < meta char
+set = "UTF-8" > < /head> < body > < style type = "text/css" > #form {
+
+border - radius: 20 px;
+
+background - color: #ddd;
+
+width: 1000 px;
+
+padding: 100 px;
+ }.anybtn {
+
+border - top - left - radius: 20 px;
+
+border - bottom - right - radius: 20 px;
+
+background - color: #ddd;
+
+width: 200 px;
+
+padding: 5 px;
+ }
+ input: hover {
+
+background - color: #ff00ff;
+
+color: #ffffff;
+}
+17. body {
+
+background: #222222;
+ margin:50px;
+ }
+
+ </style>
+
+ <script>
+ function Queue()
+{
+var elements =[];this.push = push;this.pop = pop;this.peek = peek;this.peekUser = peekU
+ser;this.peekAll = peekAll;this.isNotNull = isNotNull;this.removeAll = removeAll;this.siz
+e = size;
+function push() {
+
+if (elements.length >= 5) {
+
+document.getElementById("salida").innerHTML = "no se puede";
+
+} else {
+
+var element = "cliente " + (elements.length + 1);
+
+elements.push(element);
+document.getElementById("salida").innerHTML = element + " ingresado en la col
+a";
+}
+}
+function pop() {
+if (elements.length == 0) {
+document.getElementById("salida").innerHTML = element + "su cola ya esta vaci
+a";
+} else {
+var desencolado = elements.shift();
+document.getElementById("salida").innerHTML = desencolado + " fue atendido y
+se fue";
+
+}
+
+}
+function peek() {
+
+document.getElementById("salida").innerHTML = elements[elements.length - 1];
+
+}
+function peekUser() {
+
+var index = prompt("Ingrese el indice del cliente que busca", "0");
+
+if (index < 0 && index >= elements.length) {
+
+document.getElementById("salida").innerHTML = "no existe";
+
+} else {
+
+document.getElementById("salida").innerHTML = elements[index];
+
+}
+}
+function peekAll() {
+
+var salida = "";
+
+for (var i = 0; i < elements.length; i++) {
+
+var suma = i + 1;
+
+salida = salida + "Index: " + suma + " - Item: " + elements[i] + "<br>";
+
+}
+document.getElementById("salida").innerHTML = salida;
+
+}
+function isNotNull() {
+
+document.getElementById("salida").innerHTML = elements.length > 0;
+
+}
+function removeAll() {
+
+elements = [];
+
+document.getElementById("salida").innerHTML = "Nueva cola vacia";
+
+}
+function size() {
+
+document.getElementById("salida").innerHTML = elements.length;
+
+}
+}
+var queue = new Queue(); < /script> < table id = "form" > < tr > < td > < form > Bienveni
+do a la tienda de la esquina < br > < input type = "button"
+class = "anybtn"
+value = "Nueva fila"
+onClick = "queue.removeAll()" > < br > < input type = "button"
+class = "anybtn"
+value = "push"
+onClick = "queue.push()" > < br > < input type = "button"
+class = "anybtn"
+value = "pop"
+onClick = "queue.pop()" > < br > < input type = "button"
+class = "anybtn"
+value = "peek"
+onClick = "queue.peek()" > < br > < input type = "button"
+
+class = "anybtn"
+ value = "peekUser"
+ onClick = "queue.peekUser()" > < br > < input type = "button"
+ class = "anybtn"
+
+value = "peekAll"
+
+onClick = "queue.peekAll()" > < br > < input type = "button"
+
+class = "anybtn"
+
+value = "hasElements"
+
+onClick = "queue.isNotNull()" > < br > < input type = "button"
+
+class = "anybtn"
+
+value = "removeAll"
+
+onClick = "queue.removeAll()" > < br > < input type = "button"
+
+class = "anybtn"
+
+value = "size"
+
+onClick = "queue.size()" > < br > < /form> < /td> < td > < div id = salida > < /di
+v> < /td> < /tr> < /table> < /body> < /html>
